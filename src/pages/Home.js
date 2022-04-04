@@ -1,33 +1,21 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import withLayout from './withLayout'
 
 function Home() {
+    const navigate= useNavigate()
   return (
     <div>
-        <h1>Welcome to my homepage</h1>
-        <div>
-    
-    <p>Marshall Bruce Mathers III, known professionally as
-         Eminem, is an American rapper, songwriter,
-          and record producer. Eminem is among the
-           best-selling music artists of all time,
-            with estimated worldwide sales of over
-             220 million records</p>
-             <p>Marshall Bruce Mathers III, known professionally as
-         Eminem, is an American rapper, songwriter,
-          and record producer. Eminem is among the
-           best-selling music artists of all time,
-            with estimated worldwide sales of over
-             220 million records</p>
-             <p>Marshall Bruce Mathers III, known professionally as
-         Eminem, is an American rapper, songwriter,
-          and record producer. Eminem is among the
-           best-selling music artists of all time,
-            with estimated worldwide sales of over
-             220 million records</p>
+      <div className='banner'>
+          <h1>Welcome to my webpage</h1>
+          <p>this webpage is about me.I love progrmming and coding.I also love to play football </p>
+<div className='actions-wrap'>
+    <button className='btn-outline' onClick={()=>navigate("./about")}>About Me</button>
+    <button className='btn-contain' onClick={()=>navigate("./blog")}>Read Blogs</button>
+</div>
+      </div>
     </div>
-    </div>
-)
+  )
 }
 
 export default withLayout(Home)
