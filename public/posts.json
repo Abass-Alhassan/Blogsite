@@ -11,7 +11,7 @@
 }
 ,
 {
-    "id":1,
+    "id":2,
     "image":"2.png",
     "slug":"post-number-one",
     "title":"post malone stoned",
@@ -23,7 +23,7 @@
     },
     
     {
-        "id":1,
+        "id":3,
         "image":"3.png",
         "slug":"post-number-one",
         "title":"post malone stoned",
@@ -34,7 +34,7 @@
         
         },
         {
-            "id":1,
+            "id":4,
             "image":"4.png",
             "slug":"post-number-one",
             "title":"post malone stoned",
